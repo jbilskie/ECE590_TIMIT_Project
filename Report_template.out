@@ -1,19 +1,21 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Motivation and importance of the problem}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Motivation and Importance of the Problem}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{Description of the TIMIT Database}{section.1}% 3
-\BOOKMARK [1][-]{section.2}{Related Works}{}% 4
-\BOOKMARK [2][-]{subsection.2.1}{Method 1: Related Works}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.2}{Method 2: Related Works}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.3}{Method 3: Related Works}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{Details of the Project}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{Data Splitting}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.2}{Scaling for the Number of Speakers}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.3}{Contribution of each Member of the Team}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.4}{Jessica Centers}{section.3}% 12
-\BOOKMARK [2][-]{subsection.3.5}{Xinlin Chen}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.6}{Michael Martinez}{section.3}% 14
-\BOOKMARK [1][-]{section.4}{Experimental Results}{}% 15
-\BOOKMARK [2][-]{subsection.4.1}{Method 1: Results}{section.4}% 16
-\BOOKMARK [2][-]{subsection.4.2}{Method 2: Results}{section.4}% 17
-\BOOKMARK [2][-]{subsection.4.3}{Method 3: Results}{section.4}% 18
-\BOOKMARK [1][-]{section.5}{Concluding Remarks}{}% 19
+\BOOKMARK [2][-]{subsection.1.3}{Overview of Methods}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Related Works}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Method 1: Related Works}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Method 2: Related Works}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Method 3: Related Works}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Details of the Project}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Data Splitting}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Scaling for the Number of Speakers}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Baseline Classifier Performance Results}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Contribution of Each Member of the Team}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Xinlin Chen}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Jessica Centers}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.3}{Michael Martinez}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Experimental Results}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Method 1: Results}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Method 2: Results}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.3}{Method 3: Results}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{Concluding Remarks}{}% 21
