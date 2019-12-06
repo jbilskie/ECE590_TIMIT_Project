@@ -1,0 +1,107 @@
+\documentclass{article}
+
+% if you need to pass options to natbib, use, e.g.:
+%     \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2018
+
+% ready for submission
+% \usepackage{neurips_2018}
+
+% to compile a preprint version, e.g., for submission to arXiv, add add the
+% [preprint] option:
+%     \usepackage[preprint]{neurips_2018}
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+%\usepackage[final]{nips_2018}
+
+% to avoid loading the natbib package, add option nonatbib:
+%     \usepackage[nonatbib]{neurips_2018}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{bbold}
+\usepackage{lmodern}
+\title{Speaker ID with the TIMIT Dataset}
+
+\author{
+  Team members: Jessuca Centers, Xinlin Chen, and Michael Martinez 
+}
+
+\begin{document}
+
+\maketitle
+\section*{}
+\begin{abstract}
+The TIMIT database contains clean audio from 630 speakers (192 females, 438 males) categorized into 8 American dialects. 
+These speakers each read ten phonetically rich sentences. 
+The goal of this project was to evaluate various neural network (NN) architectures and feature spaces for the purpose of speech-independent speaker identification on this dataset. 
+We evaluates three feature spaces, which we describe as our three methods. 
+The first method was to extract common speech features such as mel-frequency cepstral coefficients (MFCCs), delta, and deltaDelta coefficients gathered from the audio clips and use those as the input to a neural network. 
+The second method required generating the audio spectrograms and using those 2-D representations of the speech as input to a neural network. 
+The third method takes an end-to-end deep neural network approach and uses the raw audio data as the input. 
+The use of an autoencoder was also explored. 
+For simplicity, the number of speakers considered was reduced to 20, which were randomly selected. 
+Based on our experiments, the best feature space to use in a speaker ID neural network was [insert result] as it provided [insert result] accuracy for the 20 speaker subset. 
+\end{abstract}
+\newpage
+
+\section{Introduction}
+\subsection{Motivation and importance of the problem}
+Speaker identification (ID) is critical to authentication and surveillance applications. 
+In many scenarios, including over-the-phone listening, speaker identification is limited to only the acoustic-based identification approach. Scenarios in which other biometric measurements would be used to perform speaker identifcation can easily be argued.
+For the sake of this project, it is assumed that the acoustic data of a person speaking is the only biometric measurement available and/or favorable for a speaker ID classifier.
+Initial speaker ID classifiers did not use neural networks (NNs), however, the performance of NN based approaches have surpassed traditional approaches according to the technical literature.
+For that reason, the goals of this project were to evaluate the performance of different:
+\newline
+\tab 1. input feature spaces to a speaker ID neural network
+\newline
+\tab 2. speaker ID neural network architectures for specific input feature spaces
+
+\subsection{Description of the TIMIT Database}
+
+\section{Related Works}
+As mentioned in the abstract, three feature spaces were considered for a speaker ID neural network classifier. The literature used for each of these methods are described below.
+\subsection{Method 1: Related Works}
+
+\subsection{Method 2: Related Works}
+
+\subsection{Method 3: Related Works}
+
+\section{Details of the Project}
+For all methods that were experimentally evaluated for this project, a few data organization techniques were kept common. 
+\subsection{Data Splitting}
+
+\subsection{Scaling for the Number of Speakers}
+
+\subsection{Contribution of each Member of the Team}
+This section includes each team member's descriptions of their contribution to this project.
+\subsection{Jessica Centers}
+
+\subsection{Xinlin Chen}
+
+\subsection{Michael Martinez}
+
+\section{Experimental Results}
+\subsection{Method 1: Results}
+
+\subsection{Method 2: Results}
+
+\subsection{Method 3: Results}
+
+\section{Concluding Remarks}
+
+\bibliographystyle{plain}
+\bibliography{References}
+\end{document}
