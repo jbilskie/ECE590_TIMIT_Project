@@ -10,3 +10,5 @@ For project details please see PowerPoint at https://docs.google.com/presentatio
   Method3: See Michael Martinez's (mam200) Jupyter Notebooks.
   
 Final report is Report.pdf
+
+Github repo of data  is at https://github.com/jbilskie/ECE590_TIMIT_Project
