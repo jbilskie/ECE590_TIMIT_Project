@@ -5,9 +5,12 @@ Project Proposal: https://docs.google.com/presentation/d/1bW89yyabgYuBkj2-bYUH5U
 To use TIMIT database, first run "pip instal timit_utils" in command prompt. Then use the TIMIT utiliy functions as seen in the demonstration notebook "timit_utils_demonst.ipynb".
 
 For project details please see PowerPoint at https://docs.google.com/presentation/d/1c4jSFXUlfzjAldoUG1k1g1cKC6tezKMDJi8y-ajlY4Q/edit?usp=sharing
-  Method1: See Janet Chen's (xc130) Jupyter Notebooks.
-  Method2: See Jessica Center's (jmb221) Jupyter Notebooks.
-  Method3: See Michael Martinez's (mam200) Jupyter Notebooks.
+
+Method1: See Janet Chen's (xc130) Jupyter Notebooks.
+
+Method2: See Jessica Center's (jmb221) Jupyter Notebooks.
+
+Method3: See Michael Martinez's (mam200) Jupyter Notebooks.
   
 Final report is Report.pdf
 
