@@ -12,6 +12,6 @@ Method2: See Jessica Center's (jmb221) Jupyter Notebooks.
 
 Method3: See Michael Martinez's (mam200) Jupyter Notebooks.
   
-Final report is Report.pdf
+Final report is Speaker ID with the TIMIT Dataset.pdf
 
 Github repo of data  is at https://github.com/jbilskie/ECE590_TIMIT_Project
